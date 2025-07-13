@@ -142,27 +142,4 @@ def delete_menu():
             shutil.rmtree(journal)
             print(f"The journal {journal} has been deleted\n")
             wait(5)
-
-
-    
-
-# def choose(path):
-#     if not (os.path.exists(path)):
-#         raise FileNotFoundError
-#     file_list = os.listdir(path)
-#     if file_list:
-#         print('There are available journals and files:')
-#         for i in range(len(file_list)):
-#             print(f'{i+1}. {file_list[i]}')
-#         choice = int(input("\nEnter the number in the list: "))
-#         return file_list[choice - 1]
-#         # new_path = os.path.join(path, file_list[choice-1])
-#         # if not (os.path.exists(new_path)):
-#         #     return choose(path)
-#         # return new_path
-
-# def read_entry(path):
-#     with open(path, "rb") as f:
-#         data = f.read().decode()
-#         print(data)
         
