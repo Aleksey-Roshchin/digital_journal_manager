@@ -1,0 +1,9 @@
+|-----------|
+| Main menu |
+|-----------|
+What are you want to do?
+1. Read Entries
+2. Create New Entry
+3. Edit Entry
+4. Delete Entry or Journal
+5. Exit
